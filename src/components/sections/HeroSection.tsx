@@ -144,7 +144,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onExplore }) => {
               custom={1}
               variants={textVariants}
             >
-              Security Analyst
+              Cybersecurity Analyst &nbsp;|&nbsp; CISSP · CySA+ · AZ-500 · AWS SAA · CCNA
             </motion.h2>
 
             {/* Buttons row */}

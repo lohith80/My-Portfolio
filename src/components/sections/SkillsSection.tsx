@@ -11,21 +11,18 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-  { name: "Python", level: 95, color: "#e34c26" },
-  { name: "C", level: 90, color: "#264de4" },
-  { name: "Java", level: 89, color: "#f0db4f" },
-  { name: "HTML", level: 85, color: "#61dbfb" },
-  { name: "CSS", level: 80, color: "#68a063" },
-  { name: "JavaScript", level: 77, color: "#654ae3" },
-  { name: "AWS", level: 88, color: "#250eb1" },
-  { name: "Microsoft Azure", level: 75, color: "#68a063" },
-  { name: "Network Protocols", level: 69, color: "#e74444" },
-  { name: "Server & Client Infrastructure", level: 65, color: "#4bdgfd" },
-  { name: "SQL", level: 72, color: "#007acc" },
-  { name: "Security Frameworks", level: 83, color: "#f34f29" },
-  { name: "Network Security & Traffic Analysis", level: 65, color: "#4db34f" },
-  { name: "Git", level: 72, color: "#007a43" },
-  { name: "Identity & Access Managemen", level: 83, color: "#f34ffd" },
+  { name: "Splunk (SIEM Administration)", level: 92, color: "#FF6600" },
+  { name: "CrowdStrike (EDR Monitoring)", level: 88, color: "#E00000" },
+  { name: "Nessus / Vulnerability Management", level: 85, color: "#00AEEF" },
+  { name: "Incident Response", level: 90, color: "#6366F1" },
+  { name: "SIEM Rule Development", level: 87, color: "#8B5CF6" },
+  { name: "Microsoft Azure (AZ-500)", level: 82, color: "#0078D4" },
+  { name: "AWS (Solutions Architect)", level: 80, color: "#FF9900" },
+  { name: "Network Security (CCNA)", level: 80, color: "#1BA0D7" },
+  { name: "Identity & Access Management", level: 78, color: "#F59E0B" },
+  { name: "HIPAA / NIST / PCI-DSS Compliance", level: 83, color: "#10B981" },
+  { name: "Python (Security Scripting)", level: 72, color: "#3572A5" },
+  { name: "SQL / Log Analysis", level: 70, color: "#007ACC" },
 ];
 
 // ---------- 3D Component ----------

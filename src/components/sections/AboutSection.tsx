@@ -48,20 +48,20 @@ const AboutSection: React.FC = () => {
         </h2>
         
         <p className="text-gray-700 dark:text-gray-300 mb-4">
-          I am a Security Analyst with 4 years of experience specializing in cybersecurity, SIEM monitoring, incident response, and penetration testing. I focus on detecting threats, assessing vulnerabilities, and securing enterprise systems across cloud and on-prem environments. My efforts have led to measurable improvements in incident response times and overall security posture.
+          Results-driven Cybersecurity Analyst with 4 years of experience safeguarding Windows Server, Linux, and Azure environments. Proven track record in threat detection, CrowdStrike EDR monitoring, Splunk SIEM administration, and vulnerability management with Nessus. Adept at real-time incident response, aligning security operations to CIS Controls and NIST frameworks, and automating SOC workflows to reduce risk at scale.
         </p>
         
         <p className="text-gray-700 dark:text-gray-300 mb-6">
-          Proficient with tools such as Splunk, EDR, Burp Suite, and cloud platforms like AWS and Azure, I streamline security operations and ensure compliance with standards including NIST, OWASP, and PCI DSS. I excel in coordinating with IT, network, and development teams to remediate threats and strengthen organizational defenses.
+          Proficient across the full security stack — from network security (Snort, Wireshark, Firewalls, IDS/IPS) to cloud security (AWS, Azure), IAM (Active Directory, MFA), and threat intelligence tooling (Metasploit, Nessus, Qualys, OWASP ZAP). I hold a CISSP, CySA+, AZ-500, AWS SAA, CCNA, and Security+, and a Master's in Cybersecurity from the University of Maryland.
         </p>
 
         <p className="text-gray-700 dark:text-gray-300 mb-6">
-          Beyond professional experience, I develop security tools and projects that enhance vulnerability detection and integrate seamlessly into SDLC workflows. I am passionate about leveraging automation, threat-driven development, and innovative approaches to proactively protect systems. My goal is to combine technical expertise and practical solutions to maintain resilient, secure environments.
+          Beyond operational security, I build tools that integrate vulnerability detection directly into SDLC workflows, including static analysis utilities targeting OWASP Top 10 vulnerabilities. I am passionate about automation, threat-driven development, and proactive defense strategies that keep environments resilient against evolving adversaries.
         </p>
         
         <div className="grid grid-cols-2 gap-4 mt-4">
          <div className="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg">
-            <h3 className="font-medium text-gray-900 dark:text-white mb-2">Education</h3>
+            <h3 className="font-medium text-gray-900 dark:text-white mb-2">Graduate Education</h3>
             <p className="text-sm text-gray-700 dark:text-gray-300">
              Master of Engineering in Cybersecurity<br />
               <b className="text-blue-500">University of Maryland, College Park, Maryland, USA</b><br />
@@ -72,7 +72,7 @@ const AboutSection: React.FC = () => {
           </div>
 
           <div className="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg">
-             <h3 className="font-medium text-gray-900 dark:text-white mb-2">Education</h3>
+             <h3 className="font-medium text-gray-900 dark:text-white mb-2">Undergraduate Education</h3>
                <p className="text-sm text-gray-700 dark:text-gray-300">
                  Bachelor of Engineering in Computer Science Engineering<br />
                   <b className="text-blue-500">Prathyusha Engineering College, Chennai, Tamil Nadu, India</b><br />

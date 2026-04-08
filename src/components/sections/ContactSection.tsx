@@ -9,7 +9,7 @@ import { useTheme } from "../../context/ThemeContext";
  *  Replace with your own Formspree ID
  *  Example:  const FORMSPREE_ENDPOINT = "https://formspree.io/f/xqkwyajb";
  * ───────────────────────────────────────────────────────────── */
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORMSPREE_FORM_ID";
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/xjgpzzzj";
 
 /* ════════════════════════════════════════════════════════════
  *  3D FLOATING FORM OUTLINE (unchanged)

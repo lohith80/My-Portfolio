@@ -8,6 +8,10 @@ import cert1 from '../../Assests/Certificates/Security+.png';
 import cert2 from '../../Assests/Certificates/AWS Certified Solutions Architect - Associate.png';
 import cert3 from '../../Assests/Certificates/Network Associate.png';
 import cert4 from '../../Assests/Certificates/CySA+.png';
+// TODO: Add your CISSP and AZ-500 certificate images to src/Assests/Certificates/
+// then uncomment the two lines below:
+// import cert5 from '../../Assests/Certificates/CISSP.png';
+// import cert6 from '../../Assests/Certificates/AZ-500.png';
 
 /* ─────────────────────────────────────────────────────────────
  *  CERTIFICATE DATA
@@ -22,29 +26,44 @@ interface Certificate {
 
 const certificates: Certificate[] = [
   {
-    title: 'Security+',
-    issuer: 'CompTia',
-    date: 'August 2022',
-    image: cert1
+    // TODO: Once you add CISSP.png to src/Assests/Certificates/, replace cert1 below with cert5
+    // and move this entry to the top — CISSP is your most prestigious cert
+    title: 'CISSP – Certified Information Systems Security Professional',
+    issuer: 'ISC²',
+    date: 'Add your date',
+    image: cert1   // <-- replace with cert5 after adding the image
   },
   {
-    title: 'AWS Certified Solutions Architect - Associate',
-    issuer: 'Amazon',
+    // TODO: Once you add AZ-500.png to src/Assests/Certificates/, replace cert1 below with cert6
+    title: 'Microsoft Azure Security Engineer Associate (AZ-500)',
+    issuer: 'Microsoft',
+    date: 'Add your date',
+    image: cert1   // <-- replace with cert6 after adding the image
+  },
+  {
+    title: 'CySA+ – Cybersecurity Analyst',
+    issuer: 'CompTIA',
+    date: 'May 2023',
+    image: cert4
+  },
+  {
+    title: 'AWS Certified Solutions Architect – Associate',
+    issuer: 'Amazon Web Services',
     date: 'August 2022',
     image: cert2
   },
   {
-    title: 'Network Associate',
+    title: 'CCNA – Cisco Certified Network Associate',
     issuer: 'Cisco',
     date: 'July 2024',
     image: cert3
   },
   {
-    title: 'CySA+',
-    issuer: 'CompTia',
-    date: 'May 2023',
-    image: cert4
-  }
+    title: 'Security+',
+    issuer: 'CompTIA',
+    date: 'August 2022',
+    image: cert1
+  },
 ];
 
 /* ════════════════════════════════════════════════════════════

@@ -15,19 +15,18 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     title: "Security Analyst",
-    company: "ShineTeck Inc",
+    company: "ShineTeck Inc.",
     period: "May 2023 – Present",
-    description: "Monitored SIEM and EDR systems to detect and respond to security incidents, conducted penetration testing, and investigated complex threats across endpoints and networks. Coordinated with IT teams to remediate risks, optimize response procedures, and streamline SOC operations. Implemented automated workflows for log collection and incident reporting, improving operational efficiency and security posture.",
-    technologies: ["Splunk", "ELK", "Penetration Testing", "Vulnerability Assessment", "Threat Investigation", "Incident Response", "Network & Endpoint Security"]
+    description: "Monitored Splunk SIEM and CrowdStrike EDR across Windows Server and Linux hosts, cutting mean time to detect and respond by 30%. Automated log ingestion, correlation, and reporting pipelines in Splunk/ELK, improving SOC workflow efficiency by 22%. Investigated complex incidents in Azure and on-prem AD-integrated environments, boosting detection accuracy by 20%. Orchestrated enterprise incident response with network, server, and IAM teams — reducing resolution time by 30% while aligning actions to NIST and CIS Controls.",
+    technologies: ["Splunk", "CrowdStrike EDR", "Azure", "Active Directory", "Nessus", "Kali Linux", "Incident Response", "NIST", "CIS Controls", "ELK"]
   },
   {
     title: "Cybersecurity Analyst",
-    company: "Intelect Design Arena Ltd",
+    company: "Intellect Design Arena Ltd",
     period: "June 2021 – August 2022",
-    description: "Monitored security logs and alerts across enterprise systems to detect suspicious activity, supporting early incident detection and reducing investigation time. Performed log reviews, access audits, and security event analysis to ensure compliance with internal policies and regulatory standards. Streamlined incident resolution and reporting workflows, improving closure rates and strengthening overall security posture.",
-    technologies: ["Security Log Monitoring", "Access Audits", "Compliance", "Incident Response & Remediation", "Application Security", "Security Reporting"]
+    description: "Resolved security incidents by triaging Splunk alerts, documenting findings, and tracking remediation in ticketing systems — improving closure rates by 30%. Monitored security logs across Windows Server, Linux, firewalls, and cloud workloads, cutting investigation time by 25%. Performed access audits and security event analysis on AD and applications to enforce CIS Controls, closing 25% of identified gaps. Hardened endpoint protection with CrowdStrike policies across four business units.",
+    technologies: ["Splunk", "CrowdStrike", "Windows Server", "Linux", "Firewalls", "Active Directory", "CIS Controls", "Ticketing Systems", "Cloud Security"]
   },
-  
 ];
 
 export const ExperienceSection3D = () => {

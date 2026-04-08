@@ -28,14 +28,14 @@ const projects: Project[] = [
     title: "DetectX",
     description: "Command-line tool to detect SQL Injection and Cross-Site Scripting vulnerabilities using RegEx pattern matching.",
     technologies: ["SQL", "Python", "RegEx"],
-    github: "https://github.com/",
+    github: "https://github.com/lohith80",
     image: prjt2,
   },
   {
     title: "Incident Response and Threat Analysis",
     description: "Performed penetration testing and SIEM-based log analysis to detect threats and strengthen security measures.",
     technologies: ["Penetration Testing", "Splunk", "TTP Analysis"],
-    github: "https://github.com/",
+    github: "https://github.com/lohith80",
     image: prjt3,
   },
 ];
